@@ -13,4 +13,5 @@
   * [Chrome browser on centOS](howto/howto_install_chrome)
   * [intelliJ on centOS](howto/howto_install_intellij)
 
-
+## Tiny Handbooks
+  * [centOS](howto/centos_commands) 
