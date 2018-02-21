@@ -26,14 +26,14 @@ $ git config --list
 
 ## Create username.github.io
 
-* Create a new repository 
+> Repository name should be **"username.github.io"**
 
+ * Create a new repository
 ```markdown
 GitHub on browser -> Your Profile -> + (New Repository)
 ```
-> Repository name should be **"username.github.io"**
 
-* Configure repository 
+ * Configure repository 
 ```markdown
 GitHub on browser -> Your Profile -> Your Repository
  ->  Settings -> GitHub Pages
