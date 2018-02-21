@@ -31,3 +31,19 @@ $ git commit -m "Initial commit"
 ```
 $ git push -u origin master
 ```
+
+## Check status
+```
+$ git status
+```
+
+## Force to overwrite a local file from remote
+```
+$ git checkout -- file_path/file_name
+```
+
+## Force to overwrite a local file from remote
+```
+$ git checkout -- file_path/file_name
+```
+
