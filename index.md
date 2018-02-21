@@ -5,11 +5,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Interested in
 
 * Making something by hands
-** Programming
-** Kneeting
-** Sawing
+  * Programming
+  * Knitting
+  * Sewing
 
 * Using
-** Java
-** Python
-** Sawing Machine lol
+  * Java
+  * Python
+  * Sewing Machine lol
