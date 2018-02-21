@@ -37,7 +37,7 @@ $ git push -u origin master
 $ git status
 ```
 
-### Force to **overwrite** a local file from remote
+### Force to **overwrite** a local file from local repository (to recover)
 ```
 $ git checkout -- file_path/file_name
 ```
