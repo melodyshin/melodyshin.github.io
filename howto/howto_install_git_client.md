@@ -1,42 +1,37 @@
-## How to install git client on centOS 7
+# How to install git client on centOS 7
 
-### First of all
-run commands as a su
-```
-> sudo -i
-```
 
-### Install
+## Install
 ```
-> yum install git
-> git --version
+$ sudo yum install git
+$ git --version
 ```
 
 * Configure username and email
 ```
-> git config --global user.name "username"
-> git config --global user.email "your_email"
+$ git config --global user.name "username"
+$ git config --global user.email "your_email"
 ```
 
 * Check what configured
 ```
-> git config --list
+$ git config --list
 ```
 or check Configuration file  ~/.gitconfig
 
 ## Create username.github.io
 
-* Create a new repository
+* Create a new repository 
 
-```
-GitHub on browser -> Your Profile -> **+** (New Repository) 
+```markdown
+GitHub on browser -> Your Profile -> + (New Repository) 
 -> name it **"username.github.io"**
 ```
 
-* Configure repository
-```
+* Configure repository 
+```markdown
 GitHub on browser -> Your Profile -> Your Repository
- -> **Settings** -> GitHub Pages
+ ->  **Settings** -> GitHub Pages
 ```
 
  * Apply theme
@@ -58,26 +53,30 @@ Browser -> go to https://username.github.io
 ```
 
 ## Add a new file to the repo.
- * You can clone remote files anywhere you want
+
+> You can clone remote files anywhere you want
+
 ```
-> cd where_you_want_clone
-> git clone the_repository_url_to_clone
+$ cd where_you_want_clone
+$ git clone the_repository_url_to_clone
   (ex: https://github.com/username/username.github.io )
-> cd your_repo_name_directory
+$ cd your_repo_name_directory
 ```
  * Make any file or copy files to commit
 ```
-> make any file
+$ make any file
 ```
+> git add -> commit -> push
+
  * git add
 ```
-> git add --all
+$ git add --all
 ```
  * git commit with a message
 ```
-> git commit -m "Initial commit"
+$ git commit -m "Initial commit"
 ```
  * git push to master branch
 ```
-> git push -u origin master
+$ git push -u origin master
 ```
