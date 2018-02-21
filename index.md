@@ -1,15 +1,16 @@
 ## Welcome to Melody's GitHub Pages
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Interested in
 
-### Interested in
-
-* Making something
   * Programming
-  * Knitting
-  * Sewing
+  * Learning foreign languages
+  * Making something by hands
 
-* Using
-  * Java
-  * Python
-  * Sewing Machine lol
+## How to install or configure
+  * [centOS 7](howto/howto_install_centos7)
+  * [git client on centOS](howto/howto_install_git_client)
+  * [jdk on centOS](howto/)
+  * [Chrome browser on centOS](howto/howto_install_chrome)
+  * [intelliJ on centOS](howto/howto_install_intellij)
+
+
