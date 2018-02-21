@@ -4,7 +4,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Interested in
 
-* Making something by hands
+* Making something
   * Programming
   * Knitting
   * Sewing
