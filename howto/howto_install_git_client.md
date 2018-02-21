@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+## How to install git client on centOS 7
 
-You can use the [editor on GitHub](https://github.com/melodyshin/melodyshin.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### First of all
+run commands as a su
+```
+> sudo -i
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Install
+```
+> yum install git
+> git --version
+```
 
-### Jekyll Themes
+* Configure username and email
+```
+> git config --global user.name "username"
+> git config --global user.email "your_email"
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/melodyshin/melodyshin.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Check what configured
+```
+> git config --list
+```
+or check Configuration file  ~/.gitconfig
 
-### Support or Contact
+## Create username.github.io
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Create a new repository
+
+```
+GitHub on browser -> Your Profile -> **+** (New Repository) 
+-> name it **"username.github.io"**
+```
+
+* Configure repository
+```
+GitHub on browser -> Your Profile -> Your Repository
+ -> **Settings** -> GitHub Pages
+```
+
+ * Apply theme
+```
+Select Theme -> create index.html page using default template
+-> Commmit
+```
+
+   * No file menus show up before your repository has any file.
+
+ * Enable github.io (if U create different url with default one )
+```
+Source -> Master branch or else -> Save
+```
+
+ * Check
+```
+Browser -> go to https://username.github.io
+```
+
+## Add a new file to the repo.
+ * You can clone remote files anywhere you want
+```
+> cd where_you_want_clone
+> git clone the_repository_url_to_clone
+  (ex: https://github.com/username/username.github.io )
+> cd your_repo_name_directory
+```
+ * Make any file or copy files to commit
+```
+> make any file
+```
+ * git add
+```
+> git add --all
+```
+ * git commit with a message
+```
+> git commit -m "Initial commit"
+```
+ * git push to master branch
+```
+> git push -u origin master
+```
