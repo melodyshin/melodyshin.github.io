@@ -1,5 +1,7 @@
 
-# How to install git client on centOS 7
+# How to install git client
+
+Git client on centOS 7
 
 ## Install
 
@@ -8,31 +10,33 @@ $ sudo yum install git
 $ git --version
 ```
 
-* Configure username and email
+## Configure
+
+ * username and email
 ```
 $ git config --global user.name "username"
 $ git config --global user.email "your_email"
 ```
 
-* Check what configured
+ * Check what configured
 ```
 $ git config --list
 ```
-or check Configuration file  ~/.gitconfig
+  or check Configuration file  ~/.gitconfig
 
 ## Create username.github.io
 
 * Create a new repository 
 
 ```markdown
-GitHub on browser -> Your Profile -> + (New Repository) 
--> name it **"username.github.io"**
+GitHub on browser -> Your Profile -> + (New Repository)
 ```
+> Repository name should be **"username.github.io"**
 
 * Configure repository 
 ```markdown
 GitHub on browser -> Your Profile -> Your Repository
- ->  **Settings** -> GitHub Pages
+ ->  Settings -> GitHub Pages
 ```
 
  * Apply theme
