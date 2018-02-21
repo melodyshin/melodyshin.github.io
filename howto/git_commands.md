@@ -1,6 +1,6 @@
 # Git Commands
 
-## Clone
+### Clone
 > You can clone remote files anywhere you want
 
 ```
@@ -10,7 +10,7 @@ $ git clone the_repository_url_to_clone
 $ cd your_repo_name_directory
 ```
 
-## Add a new file to the repo.
+### Add a new file to the repo.
 > git add -> commit -> push
 
  * git add
@@ -32,18 +32,19 @@ $ git commit -m "Initial commit"
 $ git push -u origin master
 ```
 
-## Check status
+### Check status
 ```
 $ git status
 ```
 
-## Force to overwrite a local file from remote
+### Force to **overwrite** a local file from remote
 ```
 $ git checkout -- file_path/file_name
 ```
 
-## Force to overwrite a local file from remote
+### Force to **overwrite all files** from remote
 ```
-$ git checkout -- file_path/file_name
+$ git pull remote
+ex) git pull origin
 ```
 
