@@ -61,6 +61,7 @@ $ git --bare --shared init
 ```
 $ cd --> to git's home directory
 $ ln -s repository_directory/repository_name
+
 ```
 
  * Check from client
