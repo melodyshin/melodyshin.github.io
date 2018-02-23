@@ -64,6 +64,7 @@ $ ln -s repository_directory/repository_name
 ```
 
  * Check from client
+ 
 ```
 $ git clone git@server_domain:repository_name
 
