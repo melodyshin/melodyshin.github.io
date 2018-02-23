@@ -37,7 +37,7 @@ ssh-rsa BLA_BLA_KEY2 client2@domain2
 ```
 
 ## Create Directory for Repository
-> repository_name should ends with ".git"
+> repository_name should be ended with ".git"
 > ex) project.git
 
 ```
