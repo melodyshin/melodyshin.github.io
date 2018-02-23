@@ -1,14 +1,19 @@
 # Git Commands
 
 ### Clone
+
 > You can clone remote files anywhere you want
 
 ```
 $ cd where_you_want_clone
 $ git clone the_repository_url_to_clone
-  (ex: https://github.com/username/repository_name )
 $ cd your_repo_name_directory
 ```
+> Two types of URL are possible
+> 1) http
+     ex) https://github.com/username/repository_name
+> 2) ssh
+>    ex) git_id@server_domain:repository_path
 
 ### Add a new file to the repo.
 > git add -> commit -> push
