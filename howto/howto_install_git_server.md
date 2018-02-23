@@ -1,7 +1,5 @@
 
-# How to install git client
-
-Git server on centOS 7
+# How to install git server on centOS 7
 
 Assuming you already installed git.
 
