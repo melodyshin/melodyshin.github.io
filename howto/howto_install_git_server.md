@@ -25,8 +25,8 @@ Check the keys
 ls -al ~/.ssh --> check id_rsa,id_rsa.pub,authorized_keys
 ```
 
-> If any git client want to connect this git server without prompting any password
->  then do the same thing on the client's node
+> If any git client want to connect this git server without prompting any password<br>
+>  then do the same thing on the client's node<br>
 >  and add client's public key(id_rsa.pub) at the end of server's "authorized_keys" file
 
 ```
@@ -39,6 +39,7 @@ ssh-rsa BLA_BLA_KEY2 client2@domain2
 ## Create Directory for Repository
 > repository_name should ends with ".git"
 > ex) project.git
+
 ```
 $ mkdir repository_directory/repository_name
 ```
