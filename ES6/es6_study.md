@@ -1,6 +1,6 @@
-#ES6 self study 
+# ES6 self study 
 
-##Generators
+## Generators
 
 * To define an iterative algorithm by writing a single function which can **MAINTAIN its own STATE**.
 * works as a FACTORY for iterators. 
