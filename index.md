@@ -17,4 +17,4 @@
 ## Tiny Handbooks
   * [centOS](howto/centos_commands) 
   * [git](howto/git_commands) 
-  * [ES6](es6/es6_study)
+  * [ES6](es6_study)
