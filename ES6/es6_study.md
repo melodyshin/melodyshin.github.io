@@ -30,6 +30,8 @@
 
 ```javascript
 
+[ Source Code ]
+
 function* idMaker() {
   var index = 0;
   var str = 'The former indexes '
@@ -54,4 +56,15 @@ gen.next(); //index: 5
 console.log('next');
 console.log('next,' + gen.next().value); //index: 6
 console.log('[gen]' + gen.index + '[str]' + gen.str); //shown as undefined 
+
+[ Output ]
+------ show function* ------- 
+[gen]undefined[str]undefined 
+next,The former indexes  1 
+next 
+next,The former indexes  1 2 3 
+next,The former indexes  1 2 3 4 
+next 
+next,The former indexes  1 2 3 4 5 6 
+[gen]undefined[str]undefined 
 ```
