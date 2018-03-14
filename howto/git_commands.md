@@ -12,6 +12,7 @@ $ cd your_repo_name_directory
 > Two types of URL are possible
 > 1) http
      ex) https://github.com/username/repository_name
+>
 > 2) ssh
 >    ex) git_id@server_domain:repository_path
 
